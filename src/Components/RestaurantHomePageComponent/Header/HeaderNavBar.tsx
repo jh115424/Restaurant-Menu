@@ -8,6 +8,9 @@ const HeaderNavBar = () => {
         <h1>Partania's Mediterranean Bistro</h1>
       </div>
       <div className="Main-Header">
+      <li>
+          <Link style={{ textDecoration: "none" }} to="/home">HOME</Link>
+        </li>
         <li>
           <Link style={{ textDecoration: "none" }} to="/menus">MENUS</Link>
         </li>
