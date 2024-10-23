@@ -1,35 +1,40 @@
-import HomePage from './Pages/HomePage';
-import ProfilesPage from './Pages/ProfilesPage';
-import ProfilePage from './Pages/ProfilePage';
-import NotFoundPage from './Pages/NotFoundPage';
+import RestaurantHomeApp from "./RestaurantHomeApp";
 
-import  ReactDOM  from 'react-dom/client'
-import React from 'react'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import ReactDOM from "react-dom/client";
+import React from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import './index.css'
+import "./index.css";
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <HomePage />,
-    errorElement: <NotFoundPage />
+    path: "/",
+    element: <RestaurantHomeApp />,
   },
-  {
-    path: '/profiles',
-    element: <ProfilesPage />,
-    children: [
-      {
-        path: '/profiles/:profileId',
-        element: <ProfilePage />,
-      },
-    ]
-  },
+
+  //     path: "/reservation/",
+  //     element: <ReservationPage />,
+  //   },
+  //   {
+  //     path: "/restaurant-home",
+  //     element: <RestaurantHomePage />,
+  //   },
+  //   {
+  //     path: "/menus",
+  //     element: <Menus />,
+  //   }
+  // {
+  //   path: "/e-list",
+  //   element: <EList />,
+  // },
+  // {
+  //   path: "/contact-us",
+  //   element: <ContactUs />,
+  // }
 ]);
 
-
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
