@@ -1,0 +1,9 @@
+
+
+img.main-image
+ {
+  width: -webkit-fill-available;
+  min-height: 425px;
+  display: block;
+  object-fit: fill;
+}

@@ -1,0 +1,17 @@
+.anniversary-banner-box {
+    right: 50%;
+    left: 42%;
+    bottom: 140px;
+    position: relative;
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(47, 50, 53, 0.72);
+    border: 2px solid white;
+  }
+  

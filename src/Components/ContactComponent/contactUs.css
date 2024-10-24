@@ -1,0 +1,106 @@
+.Contact-Header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: rgba(81, 81, 81, 1);
+
+  text-decoration: none;
+  display: flex;
+  font-family: cursive;
+  list-style: none;
+  gap: 30px;
+}
+
+.contact-container {
+  justify-content: end;
+  justify-content: space-between;
+  top: 0;
+  overflow: hidden;
+}
+
+.name {
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+img {
+  width: -webkit-fill-available;
+  max-height: 150px;
+  display: block;
+  object-position: bottom;
+  object-fit: cover;
+}
+
+.form-container {
+  display: flex;
+  font-family: sans-serif;
+  flex-direction: column;
+  margin-top: 35px;
+  color: black;
+  width: 30%;
+  box-shadow: 5px 5px lightgray;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input,
+textarea,
+button {
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(168, 163, 163);
+  font-size: 16px;
+  font-weight: 600;
+
+  color: black;
+  background-color: white;
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.email-sign-up {
+  font-size: xx-small;
+  color: rgb(100, 95, 95);
+}
+
+.email-sign-up:hover {
+  color: lightgray;
+}
+
+.button {
+  background-color: #2b4fb9;
+  color: white;
+  width: 100px;
+}
+.terms {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 50%;
+  color: black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 245px;
+    font-family: sans-serif;
+}

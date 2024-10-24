@@ -1,0 +1,21 @@
+.history-header {
+    text-align: center;
+    font-family: serif;
+    font-weight: 100;
+    color: #545252;
+    font-style: normal;
+    padding-bottom: 20px;
+    text-transform: none;
+  }
+  
+  .history-text {
+    word-spacing: 5px;
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #2f3235;
+    font-style: normal;
+    text-transform: none;
+    line-height: 35px;
+  }

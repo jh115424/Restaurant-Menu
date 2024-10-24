@@ -1,6 +1,6 @@
 import "./ReservationsPage.css";
 
-import HeaderNavBar from "../RestaurantHomePageComponent/Header/HeaderNavBar";
+import HeaderNavBar from "../Header/HeaderNavBar";
 
 export default function ReservationsPage() {
   return (
