@@ -1,4 +1,152 @@
-.celebrate-page-header {
+img.main-image,
+img.interior-page-image-banner {
+  min-height: 550px;
+  display: block;
+  object-fit: fill;
+  
+}
+
+img {
+
+    object-fit: cover;
+}
+
+img.celebrate-page-image-banner {
+  width: -webkit-fill-available;
+  min-height: 490px;
+  display: block;
+  object-fit: cover;
+}
+.space-buttons {
+  display: flex;
+  gap: 10px;
+  bottom: 130px;
+  justify-content: center;
+  position: relative;
+  border-radius: 5px;
+}
+
+.interior-page-button,
+.interior-page-eList-button,
+.bottom-menu-page-button,
+.sign-up-button {
+  display: flex;
+  text-align: center;
+  border-radius: 5px;
+  justify-content: center;
+  height: 50px;
+  width: 200px;
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(47, 50, 53, 0.72);
+  border: 2px solid white;
+}
+a {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.interior-page-header {
+  text-align: center;
+  font-family: serif;
+  font-weight: 100;
+  color: #fff;
+  top: 150px;
+  font-family: serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  text-transform: none;
+}
+
+.interior-page-button:hover {
+  background-color: rgba(255, 255, 255, 0.72);
+  color: rgb(47, 50, 53);
+}
+
+.interior-page-eList-button:hover {
+  background-color: rgba(255, 255, 255, 0.72);
+  color: rgb(47, 50, 53);
+}
+
+.sign-up-button:hover {
+  background-color: rgba(255, 255, 255, 0.72);
+  color: rgb(47, 50, 53);
+}
+.sign-up-button:link {
+  display: flex;
+  align-items: center;
+}
+
+.loyalty-button {
+  margin-top: 45px;
+  margin-left: 25px;
+}
+
+.interior:link {
+  display: flex;
+  text-align: center;
+}
+
+.menu-options-banner {
+  padding: 10px;
+  height: 300px;
+  margin-top: -55px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: cursive;
+  font-weight: bolder;
+  color: black;
+  text-decoration: none;
+  background-color: #2f3235;
+  font-size: 18px;
+}
+
+.menu-intro-title {
+  margin-top: 50px;
+  line-height: 60px;
+  letter-spacing: 2px;
+  color: white;
+  font-family: adobe-caslon-pro, serif;
+}
+.bottom-menu-page-button,
+.private-menu-button {
+  display: flex;
+  text-align: center;
+  border-radius: 5px;
+  justify-content: center;
+  height: 50px;
+  width: 200px;
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(47, 50, 53, 0.72);
+  border: 2px solid white;
+}
+
+.menu-and-private-button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.serving-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.bottom-menu-page-button:hover {
+  background-color: rgba(255, 255, 255, 0.72);
+  color: rgb(47, 50, 53);
+}
+
+.private-menu-button:hover {
+  background-color: rgba(255, 255, 255, 0.72);
+  color: rgb(47, 50, 53);
+}
+
+/* .celebrate-page-header {
   text-align: center;
   font-family: serif;
   font-weight: 100;
@@ -68,4 +216,4 @@ a {
 .celebrate-page-eList-button:hover {
   background-color: rgba(255, 255, 255, 0.72);
   color: rgb(47, 50, 53);
-}
+} */

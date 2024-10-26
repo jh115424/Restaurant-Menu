@@ -9,10 +9,10 @@ const HeaderNavBar = () => {
       </div>
       <div className="Main-Header">
       <li>
-          <Link style={{ textDecoration: "none" }} to="/home">HOME</Link>
+          <Link style={{ textDecoration: "none" }} to="/">HOME</Link>
         </li>
         <li>
-          <Link style={{ textDecoration: "none" }} to="/menus">MENUS</Link>
+          <Link style={{ textDecoration: "none" }} to="/menu-list">MENUS</Link>
         </li>
         <li>
           <Link style={{ textDecoration: "none" }} to="/e-list">JOIN E-LIST</Link>

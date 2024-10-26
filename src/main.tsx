@@ -1,11 +1,11 @@
 import RestaurantHomeApp from "./RestaurantHomeApp";
-import Menus from "./Components/Menus/MenuOptions";
-import InteriorPage from "./Components/RestaurantHomePageComponent/Celebrate/CelebratePage";
+import LoyaltySignUp from "./Components/RestaurantHomePageComponent/LoyaltySignUp/GuestLoyalty";
+import Inside from "./Components/InsidePictures/Inside";
 import ReservationsPage from "./Components/ReservationsComponent/ReservationsPage";
 import EList from "./Components/EListComponent/EList";
 import CelebratePage from "./Components/RestaurantHomePageComponent/Celebrate/CelebratePage";
 import HomePage from "./RestaurantHomeApp";
-import MenuOptions from "./Components/Menus/MenuOptions";
+import MenuList from "./Components/Menus/MenuList";
 import ContactUs from "./Components/ContactComponent/ContactUs";
 import ReactDOM from "react-dom/client";
 import React from "react";
@@ -45,17 +45,18 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/menus",
-    element: <Menus />,
+    path: "/menu-list",
+    element: <MenuList />,
   },
+
   {
     path: "/interior",
-    element: <InteriorPage />,
+    element: <Inside />,
   },
   {
-    path: "/celebrate",
-    element: <CelebratePage />
-  }
+    path: "/celebrate-page",
+    element: <CelebratePage />,
+  },
 ]);
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

@@ -1,0 +1,57 @@
+.serving-container {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .event-planning h1 {
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    color: #2f3235;
+    font-size: 42px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+  }
+  img.event-planning-image {
+    max-height: 100%;
+    width: 88%;
+    height: 860px;
+    float: right;
+  }
+  
+  h1.sub-header {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.538461538461538em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000000;
+  }
+  
+  hr {
+    width: 100px;
+    margin-left: 20px;
+  }
+  
+  .event-rules,
+  .tax-rate {
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 400;
+  
+    text-transform: none;
+    color: #2f3235;
+    margin-top: 30px;
+  }
+  
+  .event-rules h5 {
+    font-size: 20px;
+    line-height: 0.4;
+  }
+  
+  .tax-rate h5 {
+    font-size: 20px;
+    line-height: 0.4;
+  }
+    
