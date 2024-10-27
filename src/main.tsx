@@ -7,11 +7,13 @@ import CelebratePage from "./Components/RestaurantHomePageComponent/Celebrate/Ce
 import HomePage from "./RestaurantHomeApp";
 import MenuList from "./Components/Menus/MenuList";
 import ContactUs from "./Components/ContactComponent/ContactUs";
+import SignUp from "./Components/SignUpProgram/SignUp";
 import ReactDOM from "react-dom/client";
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "./index.css";
+import SignUpProgram from "./Components/SignUpProgram/SignUp";
 
 const router = createBrowserRouter([
   {
@@ -57,6 +59,10 @@ const router = createBrowserRouter([
     path: "/celebrate-page",
     element: <CelebratePage />,
   },
+  {
+    path: "/sign-up",
+    element: <SignUpProgram />,
+  }
 ]);
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

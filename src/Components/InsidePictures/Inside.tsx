@@ -6,10 +6,10 @@ export default function Inside() {
     <>
       <HeaderNavBar />
       <div className="inside-container">
+        
+         
     
-        <img src="/inside1.jpg" alt="Inside 1" />
-        <img src="/inside2.jpg" alt="Inside 2" />
-        <img src="/inside3.jpg" alt="Inside 3" />
+
       </div>
     </>
   );

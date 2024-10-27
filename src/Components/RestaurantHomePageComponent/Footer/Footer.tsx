@@ -2,7 +2,7 @@ import "./footer.css"
 
 
 
-const Footer: React.FC = () => {
+const Footer = () => {
     return (
           <div className="footer">
         <p>2024 Partania's Mediterranean Bistro</p>

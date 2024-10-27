@@ -1,5 +1,5 @@
 import HeaderNavBar from "../Header/HeaderNavBar";
-import Footer from "../Footer/Footer";
+import Footer from "../RestaurantHomePageComponent/Footer/Footer";
 import React from "react";
 import salmonHeader from "/public/salmonHeader.png";
 import "./contactUs.css";
