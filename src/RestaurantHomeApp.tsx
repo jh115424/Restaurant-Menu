@@ -8,6 +8,7 @@ import MainImage from "./Components/RestaurantHomePageComponent/MainImage/MainIm
 import CelebratePage from "./Components/RestaurantHomePageComponent/Celebrate/CelebratePage";
 import DinnerCarousel from "./Components/RestaurantHomePageComponent/DinnerCarousel/DinnerCarousel";
 
+
 export default function HomePage() {
   return (
     <>
@@ -20,6 +21,7 @@ export default function HomePage() {
         <GuestLoyalty />
         <DinnerCarousel />
         <Footer />
+      
       </div>
     </>
   );

@@ -92,7 +92,7 @@ export default function ContactUs({
         </div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

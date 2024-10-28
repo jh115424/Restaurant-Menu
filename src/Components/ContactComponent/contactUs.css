@@ -23,9 +23,9 @@
   font-size: 12px;
 }
 
-img {
+.salmon-header  {
   width: -webkit-fill-available;
-  max-height: 150px;
+  height: 150px;
   display: block;
   object-position: bottom;
   object-fit: cover;

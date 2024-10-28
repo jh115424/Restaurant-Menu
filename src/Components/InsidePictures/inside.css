@@ -1,0 +1,50 @@
+.inside-container {
+  position: relative;
+}
+
+.menuHeaderPic > img {
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  border-radius: 5px;
+
+  width: 100%;
+  margin-bottom: 75px;
+  opacity: 0.4;
+}
+
+.luxury-dining-pics{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.luxury-dining-pics > img:hover {
+  transform: scale(1.1);
+}
+
+.avli-dining {
+  display: flex;
+  border-style: solid;
+  box-shadow: 4px 4px rgba (0, 0, 0, 0.25);
+  border-radius: 5px;
+  height: 300px;
+}
+
+.avli-dining-chef > img {
+  display: flex;
+  margin: auto;
+  border-style: solid;
+  box-shadow: 4px 4px rgba (0, 0, 0, 0.25);
+  border-radius: 5px;
+  height: 300px;
+}
+
+.avli-dining-chef > img:hover {
+  transform: scale(1.1);
+}
+
+.avli-dining-chef > p {
+  text-align: center;
+}
