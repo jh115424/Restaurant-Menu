@@ -32,6 +32,13 @@ export default function Inside() {
           atmosphere.
         </p>
       </div>
+      <div className="avli-dining-chef">
+        <img
+          src={avliExecutiveChefNikolaosKapernaros}
+          alt="avliExecutiveChefNikolaosKapernaros"
+        />
+        <p>Our Executive Chef, Nikolaos Kapernaros</p>
+      </div>
       <div className="luxury-dining-pics">
         <div className="avli-dining">
           <img src={avliBar} alt="avliBar" />
@@ -59,13 +66,7 @@ export default function Inside() {
           <img src={avliRooftop2} alt="avliRooftop2" />
         </div>
       </div>
-      <div className="avli-dining-chef">
-        <img
-          src={avliExecutiveChefNikolaosKapernaros}
-          alt="avliExecutiveChefNikolaosKapernaros"
-        />
-        <p>Executive Chef, Nikolaos Kapernaros</p>
-      </div>
+ 
       <Footer />
  
    

@@ -1,5 +1,9 @@
+
+
+
 .inside-container {
   position: relative;
+ 
 }
 
 .menuHeaderPic > img {
@@ -17,6 +21,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 

@@ -7,6 +7,7 @@ import GuestLoyalty from "./Components/RestaurantHomePageComponent/LoyaltySignUp
 import MainImage from "./Components/RestaurantHomePageComponent/MainImage/MainImage";
 import CelebratePage from "./Components/RestaurantHomePageComponent/Celebrate/CelebratePage";
 import DinnerCarousel from "./Components/RestaurantHomePageComponent/DinnerCarousel/DinnerCarousel";
+// import EList from "./Components/EListComponent/EList";
 
 
 export default function HomePage() {
@@ -14,13 +15,16 @@ export default function HomePage() {
     <>
       <div>
         <HeaderNavBar />
-        <MainImage />
+        <DinnerCarousel />
+       
         <AnniversaryBanner />
         <History />
         <CelebratePage />
         <GuestLoyalty />
-        <DinnerCarousel />
+       
+        <MainImage />
         <Footer />
+  
       
       </div>
     </>

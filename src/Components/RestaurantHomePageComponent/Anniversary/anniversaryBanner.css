@@ -4,6 +4,7 @@
     bottom: 140px;
     position: relative;
     height: 50px;
+    z-index: -2;
     width: 200px;
     justify-content: center;
     display: flex;

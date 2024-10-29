@@ -5,7 +5,7 @@ img {
 .main-image,
 .interior-page-image-banner {
   width: -webkit-fill-available;
-  height: 300px;
+  height: 350px;
 
   display: block;
   object-fit: cover;
@@ -14,6 +14,8 @@ img {
 .space-buttons {
   display: flex;
   gap: 10px;
+
+  color: black;
   bottom: 130px;
   justify-content: center;
   position: relative;
@@ -34,6 +36,7 @@ img {
   border-color: rgb(255, 255, 255);
   background-color: rgba(47, 50, 53, 0.72);
   border: 2px solid white;
+  cursor: pointer;
 }
 a {
   display: flex;
@@ -46,6 +49,7 @@ a {
   font-family: serif;
   font-weight: 100;
   color: #fff;
+
   top: 150px;
   font-family: serif;
   font-weight: 400;
@@ -55,19 +59,26 @@ a {
 }
 
 .interior-page-button:hover {
-  background-color: rgba(255, 255, 255, 0.72);
-  color: rgb(47, 50, 53);
+  background-color:#0a0a23;
+  color: #fff;
+
 }
 
 .interior-page-eList-button:hover {
-  background-color: rgba(255, 255, 255, 0.72);
-  color: rgb(47, 50, 53);
+  /* background-color: rgba(255, 255, 255, 0.72);
+  color: rgb(47, 50, 53); */
+  background-color:#0a0a23;
+  color: #fff;
 }
 
+
 .sign-up-button:hover {
-  background-color: rgba(255, 255, 255, 0.72);
-  color: rgb(47, 50, 53);
+  /* background-color: rgba(255, 255, 255, 0.72);
+  color: rgb(47, 50, 53); */
+  background-color:#0a0a23;
+  color: #fff;
 }
+
 .sign-up-button:link {
   display: flex;
   align-items: center;
@@ -82,6 +93,10 @@ a {
   display: flex;
   text-align: center;
 }
+
+/* .interior {
+  color: red;
+} */
 
 .menu-options-banner {
   padding: 10px;
@@ -131,83 +146,17 @@ a {
 }
 
 .bottom-menu-page-button:hover {
-  background-color: rgba(255, 255, 255, 0.72);
-  color: rgb(47, 50, 53);
+  /* background-color: rgba(255, 255, 255, 0.72);
+  color: rgb(47, 50, 53); */
+  background-color:#0a0a23;
+  color: #fff;
 }
 
 .private-menu-button:hover {
-  background-color: rgba(255, 255, 255, 0.72);
-  color: rgb(47, 50, 53);
-}
-
-/* .celebrate-page-header {
-  text-align: center;
-  font-family: serif;
-  font-weight: 100;
+  /* background-color: rgba(255, 255, 255, 0.72);
+  color: rgb(47, 50, 53); */
+  background-color:#0a0a23;
   color: #fff;
-  top: 150px;
-  font-family: serif;
-  font-weight: 400;
-  font-style: normal;
-  position: relative;
-  text-transform: none;
 }
 
-img.celebrate-page-image-banner {
-  width: -webkit-fill-available;
-  min-height: 490px;
-  display: block;
-}
 
-.celebrate-page-header {
-  text-align: center;
-  font-family: serif;
-  font-weight: 100;
-  color: #fff;
-  top: 150px;
-  font-family: serif;
-  font-weight: 400;
-  font-style: normal;
-  position: relative;
-  text-transform: none;
-}
-
-.space-buttons {
-  display: flex;
-  gap: 10px;
-  bottom: 130px;
-  justify-content: center;
-  position: relative;
-  border-radius: 5px;
-}
-a {
-  display: flex;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.celebrate-page-button,
-.celebrate-page-eList-button,
-.bottom-menu-page-button,
-.sign-up-button {
-  display: flex;
-  text-align: center;
-  border-radius: 5px;
-  justify-content: center;
-  height: 50px;
-  width: 200px;
-  color: rgb(255, 255, 255);
-  border-color: rgb(255, 255, 255);
-  background-color: rgba(47, 50, 53, 0.72);
-  border: 2px solid white;
-}
-
-.celebrate-page-button:hover {
-  background-color: rgba(255, 255, 255, 0.72);
-  color: rgb(47, 50, 53);
-}
-
-.celebrate-page-eList-button:hover {
-  background-color: rgba(255, 255, 255, 0.72);
-  color: rgb(47, 50, 53);
-} */

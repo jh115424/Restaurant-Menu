@@ -38,15 +38,14 @@ img.pic-slide {
 .dinner-carousel {
   position: relative;
   width: 100%;
-  height: 350px;
+  height: 400px;
   margin-top: 5px;
-  /* overflow: hidden; */
+
 }
 
 .dinner-carousel > img {
   position: absolute;
-
-  /* height: 100%; */
+  z-index: -2;
 
   top: 0;
   opacity: 0;
