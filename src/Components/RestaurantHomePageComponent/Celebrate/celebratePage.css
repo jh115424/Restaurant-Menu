@@ -4,9 +4,8 @@ img {
 
 .main-image,
 .interior-page-image-banner {
-  width: -webkit-fill-available;
-  height: 350px;
-
+  height: 400px;
+  width: 100%;
   display: block;
   object-fit: cover;
 }
@@ -22,8 +21,11 @@ img {
   border-radius: 5px;
 }
 
+.interior,
+.e-list,
+.menu-list,
+.private-events,
 .interior-page-button,
-.interior-page-eList-button,
 .bottom-menu-page-button,
 .sign-up-button {
   display: flex;
@@ -44,38 +46,27 @@ a {
   margin-bottom: auto;
 }
 
-.interior-page-header {
-  text-align: center;
-  font-family: serif;
-  font-weight: 100;
-  color: #fff;
-
-  top: 150px;
-  font-family: serif;
-  font-weight: 400;
-  font-style: normal;
-  position: relative;
-  text-transform: none;
-}
-
-.interior-page-button:hover {
-  background-color:#0a0a23;
-  color: #fff;
-
-}
-
-.interior-page-eList-button:hover {
-  /* background-color: rgba(255, 255, 255, 0.72);
-  color: rgb(47, 50, 53); */
-  background-color:#0a0a23;
+.interior:hover {
+  background-color: #0a0a23;
   color: #fff;
 }
 
+.e-list:hover {
+  background-color: #0a0a23;
+  color: #fff;
+}
+
+.menu-list:hover {
+  background-color: #0a0a23;
+  color: #fff;
+}
+.private-events:hover {
+  background-color: #0a0a23;
+  color: #fff;
+}
 
 .sign-up-button:hover {
-  /* background-color: rgba(255, 255, 255, 0.72);
-  color: rgb(47, 50, 53); */
-  background-color:#0a0a23;
+  background-color: #0a0a23;
   color: #fff;
 }
 
@@ -89,14 +80,18 @@ a {
   margin-left: 25px;
 }
 
-.interior:link {
-  display: flex;
+.interior-page-header {
   text-align: center;
+  font-family: serif;
+  font-weight: 100;
+  color: #fff;
+  top: 150px;
+  font-family: serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  text-transform: none;
 }
-
-/* .interior {
-  color: red;
-} */
 
 .menu-options-banner {
   padding: 10px;
@@ -146,17 +141,11 @@ a {
 }
 
 .bottom-menu-page-button:hover {
-  /* background-color: rgba(255, 255, 255, 0.72);
-  color: rgb(47, 50, 53); */
-  background-color:#0a0a23;
+  background-color: #0a0a23;
   color: #fff;
 }
 
 .private-menu-button:hover {
-  /* background-color: rgba(255, 255, 255, 0.72);
-  color: rgb(47, 50, 53); */
-  background-color:#0a0a23;
+  background-color: #0a0a23;
   color: #fff;
 }
-
-

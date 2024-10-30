@@ -12,6 +12,7 @@ export default function EList() {
   return (
     <div>
       <HeaderNavBar />
+      
       <div className="e-list-container">
         <Link to="/e-list"></Link>
      

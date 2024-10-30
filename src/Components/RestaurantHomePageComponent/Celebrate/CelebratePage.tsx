@@ -20,45 +20,28 @@ export default function CelebratePage() {
           />
         </div>
         <div className="space-buttons">
-          <div className="interior-page-button">
-            <Link
-              style={{ textDecoration: "none" }}
-              to="/interior"
-              className="interior"
-            >
-              SEE INSIDE
-            </Link>
-          </div>
-          <div className="interior-page-eList-button">
-            <Link style={{ textDecoration: "none" }} to="/e-list">
-              JOIN OUR E-LIST
-            </Link>
-          </div>
+          <Link style={{ textDecoration: "none" }} to="/interior">
+            <button className="interior">SEE INSIDE</button>
+          </Link>
+
+          <Link style={{ textDecoration: "none" }} to="/e-list">
+            <button className="e-list">JOIN OUR E-LIST</button>
+          </Link>
         </div>
       </div>
 
       <div className="menu-options-container">
         <div className="menu-options-banner">
           <h1 className="menu-intro-title">OUR MENUS</h1>
+
           <div className="menu-and-private-button-container">
-            <div className="bottom-menu-page-button">
-              <Link
-                style={{ textDecoration: "none" }}
-                to="/menu-list"
-                className="menu-list"
-              >
-                MENU
-              </Link>
-            </div>
-            <div className="private-menu-button">
-              <Link
-                style={{ textDecoration: "none" }}
-                to="/private-events"
-                className="private-events"
-              >
-                PRIVATE EVENTS
-              </Link>
-            </div>
+            <Link style={{ textDecoration: "none" }} to="/menu-list">
+              <button className="menu-list">MENU</button>
+            </Link>
+
+            <Link style={{ textDecoration: "none" }} to="/private-events">
+              <button className="private-events">PRIVATE EVENTS</button>
+            </Link>
           </div>
         </div>
       </div>
