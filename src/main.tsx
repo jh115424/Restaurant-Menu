@@ -1,5 +1,4 @@
 import RestaurantHomeApp from "./RestaurantHomeApp";
-import LoyaltySignUp from "./Components/RestaurantHomePageComponent/LoyaltySignUp/GuestLoyalty";
 import Inside from "./Components/InsidePictures/Inside";
 import ReservationsPage from "./Components/ReservationsComponent/ReservationsPage";
 import EList from "./Components/EListComponent/EList";
@@ -7,7 +6,6 @@ import CelebratePage from "./Components/RestaurantHomePageComponent/Celebrate/Ce
 import HomePage from "./RestaurantHomeApp";
 import MenuList from "./Components/Menus/MenuList";
 import ContactUs from "./Components/ContactComponent/ContactUs";
-import SignUp from "./Components/SignUpProgram/SignUp";
 import ReactDOM from "react-dom/client";
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -62,7 +60,7 @@ const router = createBrowserRouter([
   {
     path: "/sign-up",
     element: <SignUpProgram />,
-  }
+  },
 ]);
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
