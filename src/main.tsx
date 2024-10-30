@@ -1,6 +1,7 @@
 import RestaurantHomeApp from "./RestaurantHomeApp";
 import Inside from "./Components/InsidePictures/Inside";
-import ReservationsPage from "./Components/ReservationsComponent/ReservationsPage";
+
+import ReservationsPage from "./Components/ReservationsComponent/ReservationsPage.tsx";
 import EList from "./Components/EListComponent/EList";
 import CelebratePage from "./Components/RestaurantHomePageComponent/Celebrate/CelebratePage";
 import HomePage from "./RestaurantHomeApp";

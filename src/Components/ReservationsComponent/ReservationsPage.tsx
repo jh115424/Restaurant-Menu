@@ -1,4 +1,4 @@
-import "./ReservationsPage.css";
+
 
 import HeaderNavBar from "../Header/HeaderNavBar";
 
