@@ -1,6 +1,5 @@
 import RestaurantHomeApp from "./RestaurantHomeApp";
 import Inside from "./Components/InsidePictures/Inside";
-
 import ReservationsPage from "./Components/ReservationsComponent/ReservationsPage.tsx";
 import EList from "./Components/EListComponent/EList";
 import CelebratePage from "./Components/RestaurantHomePageComponent/Celebrate/CelebratePage";
@@ -23,14 +22,31 @@ const router = createBrowserRouter([
     path: "/",
     element: <RestaurantHomeApp />,
   },
+
   {
     path: "/e-list",
-    element: <EList />,
+    element: (
+      <EList
+        setUserData={function (_data: {
+          name: string;
+          email: string;
+          phone: string;
+          guests: number;
+          date: string;
+          time: string;
+          message: string;
+        }): void {
+          console.log("Form submitted");
+        }}
+      />
+    ),
   },
+
   {
     path: "/reservation",
     element: <ReservationsPage />,
   },
+
   {
     path: "/contact-us",
     element: (
@@ -40,7 +56,7 @@ const router = createBrowserRouter([
           email: string;
           message: string;
         }): void {
-          // Implementation omitted
+          console.log("Form submitted");
         }}
       />
     ),
@@ -49,7 +65,6 @@ const router = createBrowserRouter([
     path: "/menu-list",
     element: <MenuList />,
   },
-
   {
     path: "/interior",
     element: <Inside />,

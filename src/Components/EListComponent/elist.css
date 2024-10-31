@@ -1,9 +1,48 @@
-.e-list-Container {
-  color: rgb(105, 90, 90);
+.flex-container {
+  display: flex;
+  gap: 40px;
+  background-image: radial-gradient(#9fc0e5, #c0c1e7);
+background-image: radial-gradient(circle at top right, #00ddff, rgb(198, 195, 209), #e52eb1);
+
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
 }
 
-.name {
-  font-family: cursive;
+.e-list-container {
+  width: 50%;
+  padding: 20px;
+  background-color: rgb(18, 17, 17);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 5px 5px #605c5c;
+}
+
+.salmon-image-container {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.salmon {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  box-shadow: 5px 5px #605c5c;
+}
+
+.body {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+
+  width: 400px;
+  margin-top: 25px;
+
   font-weight: bolder;
   font-size: 12px;
   color: white;
@@ -20,6 +59,45 @@
   list-style: none;
   gap: 30px;
 }
+
+.vip-email-sign-up {
+  text-align: center;
+  font-size: xx-small;
+  color: white;
+}
+
+.email-sign-up:hover {
+  color: lightgray;
+}
+
+label {
+  font-size: 12px;
+}
+
 a {
   color: #fff;
+}
+.e-list-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* button {
+  width: 100%;
+  align-items: center;
+  color: black;
+} */
+.email-terms {
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}
+
+button .submit {
+  background-color: #2b4fb9;
+  color: white;
+  width: 100px;
 }
