@@ -1,0 +1,32 @@
+.Menu-flex-container {
+    height: 900vh;
+    width:100%;
+    background-image: radial-gradient(#202121, #0a0a0c);
+    background-image: radial-gradient(circle at top right, #05050c, rgb(63, 62, 68), #05050c);
+
+}
+
+.menu-list {
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    padding: 10px;
+   
+}
+
+.bigger {
+    font-size: 80px;
+    color: white;
+    font-weight: lighter;
+
+}
+.menu-name {
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 1rem;
+    color: white;
+    background-color: black;
+
+   
+}
+
