@@ -21,7 +21,9 @@ export default function HomePage() {
         <GuestLoyalty />
         <MainImage />
         <Footer />
+     
       </div>
+   
     </>
   );
 }

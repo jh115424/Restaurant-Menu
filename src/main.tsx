@@ -4,7 +4,8 @@ import ReservationsPage from "./Components/ReservationsComponent/ReservationsPag
 import EList from "./Components/EListComponent/EList";
 import CelebratePage from "./Components/RestaurantHomePageComponent/Celebrate/CelebratePage";
 import HomePage from "./RestaurantHomeApp";
-import MenuList from "./Components/Menus/MenuList";
+import MenuTitle from "./Components/Menus/MenuTitle.tsx";
+
 import ContactUs from "./Components/ContactComponent/ContactUs";
 import ReactDOM from "react-dom/client";
 import React from "react";
@@ -62,8 +63,8 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/menu-list",
-    element: <MenuList />,
+    path: "/menu-title",
+    element: <MenuTitle />,
   },
   {
     path: "/interior",

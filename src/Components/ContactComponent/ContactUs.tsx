@@ -92,8 +92,6 @@ export default function ContactUs({
         </div>
         <Footer />
       </div>
-
- 
     </>
   );
 }

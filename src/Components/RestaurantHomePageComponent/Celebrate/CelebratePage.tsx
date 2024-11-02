@@ -35,8 +35,8 @@ export default function CelebratePage() {
           <h1 className="menu-intro-title">OUR MENUS</h1>
 
           <div className="menu-and-private-button-container">
-            <Link style={{ textDecoration: "none" }} to="/menu-list">
-              <button className="menu-list">MENU</button>
+            <Link style={{ textDecoration: "none" }} to="/menu-title">
+              <button className="celebrate-menu-title">MENU</button>
             </Link>
 
             <Link style={{ textDecoration: "none" }} to="/private-events">

@@ -12,7 +12,7 @@ const HeaderNavBar = () => {
           <Link style={{ textDecoration: "none" }} to="/">HOME</Link>
         </li>
         <li>
-          <Link style={{ textDecoration: "none" }} to="/menu-list">MENUS</Link>
+          <Link style={{ textDecoration: "none" }} to="/menu-title">MENUS</Link>
         </li>
         <li>
           <Link style={{ textDecoration: "none" }} to="/e-list">JOIN E-LIST</Link>

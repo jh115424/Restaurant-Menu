@@ -1,4 +1,5 @@
-import "./inside.css";
+// import "./inside.css";
+
 import HeaderNavBar from "../Header/HeaderNavBar";
 import menuHeaderPic from "/public/menuHeaderPic.png";
 import avliBar from "/public/avliBar.webp";
@@ -11,9 +12,6 @@ import avliPrivateDiningRoomPic from "/public/avliPrivateDiningRoomPic.jpg";
 import avliRooftop from "/public/avliRooftop.jpg";
 import avliRooftop2 from "/public/avliRooftop2.jpg";
 import Footer from "../RestaurantHomePageComponent/Footer/Footer";
-
-
-
 
 export default function Inside() {
   return (
@@ -43,7 +41,7 @@ export default function Inside() {
         <div className="avli-dining">
           <img src={avliBar} alt="avliBar" />
         </div>
-   
+
         <div className="avli-dining">
           <img src={avliNightParty} alt="avliNightParty" />
         </div>
@@ -66,10 +64,8 @@ export default function Inside() {
           <img src={avliRooftop2} alt="avliRooftop2" />
         </div>
       </div>
- 
+
       <Footer />
- 
-   
     </>
   );
 }

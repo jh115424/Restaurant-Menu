@@ -23,7 +23,7 @@ img {
 
 .interior,
 .e-list,
-.menu-list,
+.celebrate-menu-title,
 .private-events,
 .interior-page-button,
 .bottom-menu-page-button,
@@ -56,7 +56,7 @@ a {
   color: #fff;
 }
 
-.menu-list:hover {
+.menu-title:hover {
   background-color: #0a0a23;
   color: #fff;
 }
