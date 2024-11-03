@@ -1,0 +1,105 @@
+.menu-body-container {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    height: 700vh;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    width: 1000px;
+
+   
+
+}
+
+.menu-body-box {
+    width: 100%;
+   
+   
+}
+
+.dinner {
+    float: right;
+
+    font-size: 29px;
+    font-weight: 100;
+
+ 
+}
+
+.dinner-intro {
+
+    margin-top: 75px;
+    text-align: center;
+}
+
+.appetizers-container {
+    display: flex;
+    width: 100%;
+    margin-top: -50px;
+    float: left;
+    align-items: center;
+ 
+}
+
+.appetizer-title {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 50px; */
+}
+
+
+
+.menu-name {
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 1rem;
+    color: black;
+    background-color: darkgray;
+    border-radius: 5px;
+ 
+  
+  }
+  .appetizer-items-container {
+    display: flex;
+    flex-direction: column;
+
+    /* margin-top: 50px; */
+    width: 100%;
+
+  }
+  .food-name {
+    font-size: 18px;
+    font-weight: 400;
+
+  }
+
+  .left-side-appetizers {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .right-side-container {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  li {
+    list-style: none;
+    color: black;
+  }

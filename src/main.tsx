@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import RestaurantHomeApp from "./RestaurantHomeApp";
 import Inside from "./Components/InsidePictures/Inside";
 import ReservationsPage from "./Components/ReservationsComponent/ReservationsPage.tsx";

@@ -9,7 +9,6 @@
     #05050c
 
   );
-  /* display: flex; */
   background-color: black;
 }
 
@@ -27,12 +26,8 @@
   color: white;
   font-weight: lighter;
 }
-.menu-name {
-  text-align: center;
-  font-weight: lighter;
-  letter-spacing: 1rem;
-  color: white;
-  /* background-color: black; */
+.fork-container {
+  display: flex;
 }
 
  .cutleryPic {
@@ -48,4 +43,5 @@
     justify-content: center;
     height: 100px;
     width: 100px;
+    margin-top: 50px;
 }
