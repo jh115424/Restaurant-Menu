@@ -1,4 +1,4 @@
-// import "./inside.css";
+import "./inside.css";
 
 import HeaderNavBar from "../Header/HeaderNavBar";
 import menuHeaderPic from "/public/menuHeaderPic.png";
