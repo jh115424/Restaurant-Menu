@@ -6,7 +6,6 @@ import EList from "./Components/EListComponent/EList";
 import CelebratePage from "./Components/RestaurantHomePageComponent/Celebrate/CelebratePage";
 import HomePage from "./RestaurantHomeApp";
 import MenuTitle from "./Components/Menus/MenuTitle.tsx";
-
 import ContactUs from "./Components/ContactComponent/ContactUs";
 import ReactDOM from "react-dom/client";
 import React from "react";

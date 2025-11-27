@@ -1,0 +1,32 @@
+.mainCourse-name-container {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+
+  margin-top: 30px;
+  height: auto;
+}
+
+.mainCourse-menu-container {
+  display: flex;
+  width: 100%;
+}
+
+.mainCourse-title {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.food-name {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.left-side-mainCourse,
+.right-side-mainCourse {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

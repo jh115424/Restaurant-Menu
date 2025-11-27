@@ -1,5 +1,4 @@
 .Menu-flex-container {
-  height: 800vh;
   width: 100%;
   background-image: radial-gradient(#202121, #0a0a0c);
   background-image: radial-gradient(
@@ -7,12 +6,9 @@
     #05050c,
     rgb(63, 62, 68),
     #05050c
-
   );
   background-color: black;
 }
-
-
 
 .menu-list {
   display: flex;
@@ -30,18 +26,18 @@
   display: flex;
 }
 
- .cutleryPic {
+.cutleryPic {
   display: flex;
   justify-content: center;
   margin-top: 50px;
 }
 
 .menu-image-container {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    height: 100px;
-    width: 100px;
-    margin-top: 50px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  margin-top: 50px;
 }
