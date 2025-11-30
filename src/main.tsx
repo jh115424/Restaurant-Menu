@@ -43,10 +43,17 @@ const router = createBrowserRouter([
     ),
   },
 
-  {
-    path: "/reservation",
-    element: <ReservationsPage />,
-  },
+{
+  path: "/reservation",
+  element: (
+    <ReservationsPage
+      setUserData={function (data) {
+        console.log("Reservation Submitted:", data);
+      }}
+    />
+  ),
+},
+
 
   {
     path: "/contact-us",
