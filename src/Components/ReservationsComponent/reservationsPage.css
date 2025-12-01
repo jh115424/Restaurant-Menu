@@ -1,0 +1,62 @@
+.reservationPageContainer {
+  display: flex;
+  height: 100vh; /* full screen height */
+}
+
+.reserveForm { 
+  background-color: lightgrey;
+  height: auto;
+  padding: 5px;
+  border-radius: 10px;
+ 
+}
+
+/* LEFT and RIGHT should share space equally */
+.reservationImageContainer,
+.reservationFormContainer {
+  flex: 1; /* 50% / 50% split */
+}
+
+.reservation-left-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* fills the box like the mockup */
+  display: block;
+}
+
+.reservationFormContainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;  
+  background-color: whitesmoke;
+}
+
+.reserveTable {
+  text-align: center;
+
+}
+
+.reserveTable h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+}
+
+.reserveTable p {
+     font-family: "Playfair Display", serif;
+  font-size: 20px;
+
+}
+
+.reserveForm label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.reserveForm input {
+  /* width: 100%; */
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
