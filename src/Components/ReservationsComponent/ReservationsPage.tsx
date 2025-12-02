@@ -68,7 +68,7 @@ export default function ReservationsPage({
         )}
 
         <div
-          style={{ backgroundColor: "lightgray", height: "100vh" }}
+          style={{ backgroundColor: "lightgray"}}
           className="reservationPageContainer"
         >
           <div className="reservationImageContainer">
