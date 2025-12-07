@@ -9,7 +9,6 @@ import CelebratePage from "./Components/RestaurantHomePageComponent/Celebrate/Ce
 import DinnerCarousel from "./Components/RestaurantHomePageComponent/DinnerCarousel/DinnerCarousel";
 
 
-
 export default function HomePage() {
   return (
     <>

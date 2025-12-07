@@ -12,7 +12,8 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "./index.css";
-import SignUpProgram from "./Components/SignUpProgram/SignUp";
+
+import PointsProgram from "./Components/PointsProgram/PartaniaPoints.tsx"
 
 const router = createBrowserRouter([
   {
@@ -43,17 +44,16 @@ const router = createBrowserRouter([
     ),
   },
 
-{
-  path: "/reservation",
-  element: (
-    <ReservationsPage
-      setUserData={function (data) {
-        console.log("Reservation Submitted:", data);
-      }}
-    />
-  ),
-},
-
+  {
+    path: "/reservation",
+    element: (
+      <ReservationsPage
+        setUserData={function (data) {
+          console.log("Reservation Submitted:", data);
+        }}
+      />
+    ),
+  },
 
   {
     path: "/contact-us",
@@ -82,8 +82,8 @@ const router = createBrowserRouter([
     element: <CelebratePage />,
   },
   {
-    path: "/sign-up",
-    element: <SignUpProgram />,
+    path: "/partania-points",
+    element: <PointsProgram/>,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")!).render(

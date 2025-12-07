@@ -20,6 +20,9 @@ const HeaderNavBar = () => {
         <li>
           <Link style={{ textDecoration: "none" }} to="/reservation">RESERVATIONS</Link>
         </li>
+         <li>
+          <Link style={{ textDecoration: "none" }} to="/partania-points">POINTS</Link>
+        </li>
         <li>
           <Link style={{ textDecoration: "none" }} to="/contact-us">CONTACT US</Link>
         </li>
