@@ -1,0 +1,107 @@
+.pointsTitleContainer {
+  margin-left: 20px;
+
+  background: linear-gradient(90deg, #4b000f, #800020);
+  background-clip: text; /* Standard */
+  -webkit-background-clip: text; /* Safari/Chrome */
+  color: transparent; /* Standard text transparency */
+  -webkit-text-fill-color: transparent;
+}
+
+.pointsTitleContainer p {
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.pointsCardContainer {
+  background-color: rgb(249, 247, 247);
+  border-radius: 2px;
+  border: 2px solid gold;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 220px;
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+   display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  text-align: center;
+  
+}
+
+
+.currentPointLabel {
+      margin-top: auto;  /* pushes it to the bottom */
+      font-style: italic;
+      font-size: 24px;
+      text-align: left;
+      padding-left: 10px;
+       font-family: "Playfair Display", serif;
+      
+}
+
+.pointsCardDivider {
+  width: 80%;
+  height: 3px;
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 50px;
+  background: linear-gradient(
+    to right,
+    gold,
+    #ffd700,
+    gold
+  );
+  position: relative;
+}
+
+.pointsCardDivider::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, white, transparent);
+  opacity: 0.8;
+  animation: shimmer 2s linear infinite;
+}
+
+@keyframes shimmer {
+  from {
+    left: -50%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+
+.tierStatus {
+
+        background-color: rgb(249, 247, 247);
+    border-radius: 2px;
+    border: 2px solid gold;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    height: 220px;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tierStatus h2 {
+
+    margin-top: auto;
+    font-style: italic;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 10px;
+    font-family: "Playfair Display", serif;
+}
+
+

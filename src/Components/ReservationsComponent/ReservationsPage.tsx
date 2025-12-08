@@ -68,7 +68,7 @@ export default function ReservationsPage({
         )}
 
         <div
-          style={{ backgroundColor: "lightgray"}}
+          style={{ backgroundColor: "lightgray" }}
           className="reservationPageContainer"
         >
           <div className="reservationImageContainer">
@@ -144,8 +144,3 @@ export default function ReservationsPage({
     </>
   );
 }
-
-
-
-
-
