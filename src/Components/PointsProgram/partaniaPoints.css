@@ -14,32 +14,30 @@
   font-family: "Playfair Display", serif;
 }
 
-.pointsCardContainer {
+.pointsCardContainer,
+.tierStatus {
   background-color: rgb(249, 247, 247);
-  border-radius: 2px;
+  border-radius: 10px;
   border: 2px solid gold;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  height: 220px;
+  height: 240px;
   width: 400px;
   margin: 0 auto;
   margin-bottom: 100px;
-   display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: space-between; 
+  justify-content: space-between;
   text-align: center;
-  
 }
 
-
 .currentPointLabel {
-      margin-top: auto;  /* pushes it to the bottom */
-      font-style: italic;
-      font-size: 24px;
-      text-align: left;
-      padding-left: 10px;
-       font-family: "Playfair Display", serif;
-      
+  margin-top: auto; /* pushes it to the bottom */
+  font-style: italic;
+  font-size: 24px;
+  text-align: left;
+  padding-left: 10px;
+  font-family: "Playfair Display", serif;
 }
 
 .pointsCardDivider {
@@ -48,13 +46,9 @@
   margin: 40px auto;
   overflow: hidden;
   border-radius: 50px;
-  background: linear-gradient(
-    to right,
-    gold,
-    #ffd700,
-    gold
-  );
+  background: linear-gradient(to right, gold, #ffd700, gold);
   position: relative;
+  z-index: 0;
 }
 
 .pointsCardDivider::after {
@@ -78,30 +72,79 @@
   }
 }
 
-
-.tierStatus {
-
-        background-color: rgb(249, 247, 247);
-    border-radius: 2px;
-    border: 2px solid gold;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    height: 220px;
-    width: 400px;
-    margin: 0 auto;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-}
-
 .tierStatus h2 {
-
-    margin-top: auto;
-    font-style: italic;
-    font-size: 24px;
-    text-align: left;
-    padding-left: 10px;
-    font-family: "Playfair Display", serif;
+  margin-top: auto;
+  font-style: italic;
+  font-size: 24px;
+  text-align: left;
+  padding-left: 10px;
+  font-family: "Playfair Display", serif;
 }
 
+.benefitsCard {
+  display: flex;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  border: 2px solid rgb(122, 128, 174);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 320px;
+  margin-bottom: 20px;
 
+  margin-left: 200px;
+  margin-right: 200px;
+  justify-content: space-evenly;
+}
+
+.benefitsCard h4 {
+  font-size: 22px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.benefitsCard p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+.gourmet-plate {
+  max-width: 300px; /* or any smaller size you want */
+  height: 300px;
+  padding-top: 10px;
+  border-radius: 33px;
+}
+
+.pointButton {
+  display: flex; /* so you can center the whole button with margin auto */
+  margin: 20px auto; /* centers the button itself */
+  padding: 12px 32px; /* space around the text */
+  text-align: center;
+  box-shadow: 0 10px 10px 0 rgba(84, 22, 22, 0.2);
+  width: 220px;
+}
+
+.pointTrayImage,
+.greenShieldImage,
+.upLevelImage,
+.nextLevelImage {
+  display: flex;
+  max-width: 150px;
+  height: 150px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+
+  box-shadow: 0 10px 10px 0 rgba(84, 22, 22, 0.2);
+}
+.pointsValue,
+.nextTierValue {
+  font-size: 24px;
+}
+
+.statusValue {
+  font-size: 22px;
+  font-weight: 600;
+}

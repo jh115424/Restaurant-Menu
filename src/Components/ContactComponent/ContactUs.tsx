@@ -38,7 +38,7 @@ export default function ContactUs({
             <p>We will get back to you shortly.</p>
           </div>
         )}
-        <div style={{ backgroundColor: "lightblue", height: "900px" }}>
+        <div>
           <div className="contact-container">
             <div className="name">
               <img src={salmonHeader} alt="salmon" className="salmon-header" />

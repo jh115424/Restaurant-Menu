@@ -149,3 +149,10 @@ a {
   background-color: #0a0a23;
   color: #fff;
 }
+
+.pointButton{
+
+  display: flex;
+  justify-content: center;
+}
+

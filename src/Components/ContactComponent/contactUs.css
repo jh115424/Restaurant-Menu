@@ -1,3 +1,7 @@
+body {
+  background-color: #f4f4f4;
+}
+
 .Contact-Header {
   display: flex;
   justify-content: end;
@@ -23,7 +27,7 @@
   font-size: 12px;
 }
 
-.salmon-header  {
+.salmon-header {
   width: -webkit-fill-available;
   height: 150px;
   display: block;
@@ -37,6 +41,8 @@
   flex-direction: column;
   margin-top: 35px;
   color: black;
+  max-width: 480px;
+  min-width: 280px;
   width: 40%;
   box-shadow: 5px 5px lightgray;
   align-items: center;
@@ -44,6 +50,8 @@
   margin-left: auto;
   background-color: white;
   border-radius: 10px;
+  border: 1px solid rgba(120, 120, 120, 0.25);
+  margin-bottom: 60px;
 }
 
 .form {
@@ -52,6 +60,7 @@
 
   margin-right: auto;
   margin-left: auto;
+  padding: 20px;
 }
 
 input,
@@ -66,7 +75,7 @@ button {
 
   color: black;
   background-color: white;
-  width: 400px;
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -95,12 +104,12 @@ button {
 }
 
 .footer {
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 245px;
-    font-family: sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 245px;
+  font-family: sans-serif;
 }
