@@ -1,50 +1,36 @@
-# React + TypeScript + Vite
+🍽️ Partania’s Mediterranean Bistro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full restaurant website built as a portfolio project to reflect a 5-star Mediterranean dining experience.
+The goal was to build something realistic — not just a demo — with real layout decisions, real logic, and clean styling.
 
-Currently, two official plugins are available:
+This project was built from start to finish and focuses on both functionality and polish.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+What’s Included
 
-- Configure the top-level `parserOptions` property like this:
+A multi-page restaurant website that works on different screen sizes
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+A points system
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Points go up when you click to add them
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Membership level updates on its own
+(Bronze, Silver, Gold, Platinum)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Shows how many points are left to reach the next level
+
+Shows recent activity on the page
+
+Clean card layouts for each section
+
+Small animations and effects to make the site feel more high-end
+
+A Contact Us form that adjusts properly when the screen size changes
+
+
+## Built With
+
+- React
+- TypeScript
+- Vite
