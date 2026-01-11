@@ -54,6 +54,8 @@ export default function PointsProgram() {
     setSubmittedPoints(true);
   };
 
+
+  
   return (
     <>
       <div className="main-container">

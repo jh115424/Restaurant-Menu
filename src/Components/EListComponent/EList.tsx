@@ -1,4 +1,4 @@
-import "./eList.css";
+import "./elist.css";
 import React from "react";
 import HeaderNavBar from "../Header/HeaderNavBar";
 import { useState } from "react";
